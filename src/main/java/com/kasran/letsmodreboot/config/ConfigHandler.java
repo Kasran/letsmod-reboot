@@ -8,7 +8,7 @@ public class ConfigHandler {
 	public static void init(File configFile) {
 		Configuration cfg = new Configuration(configFile);
 		
-		boolean configValue;
+		boolean configValue = false;
 		try {
 			cfg.load();
 			
